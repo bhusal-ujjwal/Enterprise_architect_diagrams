@@ -1,0 +1,101 @@
+Customer Management Use Cases:
+=================================
+
+
+1. Create Account:
+
+Actors: Customer
+Description: Customers can create an account by providing necessary information such as name, email, phone number, and payment details.
+
+
+2. Update Account Information:
+Actors: Customer
+Description: Customers can update their account information, including personal details and password changes.
+
+3.Search for Hotels and Rooms:
+Actors: Customer
+Description: Customers can search for hotels and available rooms based on criteria like location, dates, room type, and amenities.
+
+4.Make Reservation:
+Actors: Customer
+Description: Customers can select a hotel, choose a room, and make a reservation by specifying check-in and check-out dates and times.
+
+5. Modify Reservation:
+Actors: Customer
+Description: Customers can modify existing reservations, changing dates, room types, or other details.
+
+6. Cancel Reservation:
+Actors: Customer
+Description: Customers can cancel reservations, and the system updates the reservation status accordingly.
+
+7. View Past Reservations:
+Actors: Customer
+Description: Customers can view a history of their past reservations.
+
+
+
+Hotel Management Use Cases:
+============================
+
+
+1.Create and Manage Hotel Listing:
+Actors: Hotel
+Description: Hotels can create and manage their listings, including details like name, address, contact information, and descriptive attributes.
+
+2.Set Room Prices:
+Actors: Hotel
+Description: Hotels can set prices for different room types based on factors such as season, room features, and demand.
+
+3. Manage Room Availability:
+Actors: Hotel
+Description: Hotels can update the availability status of rooms, marking them as available, reserved, occupied, or out of service.
+
+4.Process Payments:
+Actors: Hotel
+Description: Hotels can process payments for reservations made by customers.
+
+5.View Booking History:
+Actors: Hotel
+Description: Hotels can view a history of bookings made at their establishment.
+
+Reservation Management Use Cases:
+===============================================
+
+1.Track Reservations:
+Actors: System
+Description: The system tracks all reservations, including their status (confirmed, modified, canceled, completed).
+
+2.Calculate Reservation Costs:
+Actors: System
+Description: The system calculates the total cost of a reservation based on room prices, duration, and any additional fees or discounts.
+
+3.Send Confirmation Emails:
+Actors: System
+Description: The system sends confirmation emails to customers after they make a reservation.
+
+4.Send Notifications to Hotels:
+Actors: System
+Description: The system sends notifications to hotels when a reservation is made or modified.
+
+5.Process Payments:
+Actors: System
+Description: The system processes payments for reservations made by customers.
+
+Non-Functional Use Cases:
+================================
+
+1.Handle Peak Usage:
+Actors: System
+Description: The system should be able to handle peak usage times without degradation in performance.
+
+2.Protect Customer Data:
+Actors: System
+Description: The system should ensure the protection of customer data from unauthorized access.
+
+3.Compliance with Data Privacy Laws:
+Actors: System
+Description: The system should comply with all applicable data privacy laws.
+
+4.Disaster Recovery:
+Actors: System
+Description: The system should have a robust disaster recovery plan to ensure high availability and reliability.

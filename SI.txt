@@ -1,0 +1,11 @@
+Seminar Paper Requirements:
+
+Select a problem domain, which you are familiar with... Think about realization as web-based application
+Requirements analysis and model,
+Use Case Model incl. scenarios,
+Class model,
+Sequence diagram - for 2 UC, where logic is more complex (more then 4 steps),
+Project Submission Deadline:  December- EAPX file will be submitted. 
+
+
+
